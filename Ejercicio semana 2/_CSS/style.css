@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom right,#001f2f, white);
+    font-family: Arial, sans-serif;
+  }
+
+
+  section {
+    background-color: white;
+    color: #001f2f; /* texto azul oscuro */
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    line-height: 1.6;
+    font-style: italic;
+    font-size: 18px;
+  }
+
+
+ h1 {
+ text-align:center ;
+ color:white ;
+  }
+
+  img{
+    display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  }
+
+  img{
+    transform: scale(1.02);
+  }
