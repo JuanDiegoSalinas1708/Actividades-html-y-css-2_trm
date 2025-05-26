@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de tablas</title>
+    <link rel="stylesheet" href="./_CSS/styles.css">
+</head>
+<body>
+    <main>
+    <h1>Tipos de tablas</h1>
+
+<section>  
+    <h2>1.Tabla con borde sensillo</h2> 
+    <table class=" tableone">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Carlos</td>
+            <td>Sanchez</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Andrea</td>
+            <td>Perez</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Santiago</td>
+            <td>Sarmiento</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Wilson</td>
+            <td>Méndez</td>
+            <td>50</td>
+        </tr>
+    </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>2.Tabla con imágenes</h2>
+<table class="tabletwo">
+    <thead>
+        <tr>
+            <th>Deporte</th>
+            <th>Mejor Deportista</th>
+           
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Fútbol</td>
+            <td>Cristiano Ronaldo</td>
+            <td><img src="./_img/1.png" alt="Ronaldo"></td>
+        </tr>
+        <tr>
+            <td>Bascket Ball</td>
+            <td>Michael Jordan</td>
+            <td><img src="./_img/2.webp" alt="Jordan"></td>
+        </tr>
+        <tr>
+            <td>Formula 1</td>
+            <td>Michael Schumacher</td>
+            <td><img src="./_img/3.jpg" alt="Schumacher"></td>   
+        </tr>
+        
+    </tbody>
+</table>
+</section>
+<section>
+    <h2>3.Tabla con bordes redondeados</h2>
+    <table class="tablethree">
+
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr>
+                <td>Carlos</td>
+                <td>Sanchez</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Andrea</td>
+                <td>Perez</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Santiago</td>
+                <td>Sarmiento</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Wilson</td>
+                <td>Méndez</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+        </table>        
+    </table>
+</section>
+<section>
+    <h2>4.Tabla con Hover</h2>
+    <table class="tablefour">
+        <thead>
+            <tr class="four">
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+        </thead>        
+    
+    <tr class="four">
+        <td>Juan</td>
+        <td>Salinas</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Carlos</td>
+        <td>Sanchez</td>
+        <td>25</td>
+    </tr>
+    <tr class="four">
+        <td>Dayana</td>
+        <td>Martinez</td>
+        <td>20</td>
+    </tr>
+</table>
+</section>
+
+<section>
+    <h2>5.Tabla con encabezado vertical</h2>
+    <table class="tablefive">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+        </thead>
+        <tbody>
+
+</tbody>
+
+    </table>
+</section>
+
+<section>
+    <h2>6.Tabla con bordes redondeados y sombra</h2>
+    <table class="tablesix">
+
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr>
+                <td>Carlos</td>
+                <td>Sanchez</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Andrea</td>
+                <td>Perez</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Santiago</td>
+                <td>Sarmiento</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Wilson</td>
+                <td>Méndez</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+        </table>  
+
+</section>
+
+<section>
+    <h2>7.Tablas con celdas combinadas (Colspan)</h2>
+    <table border="1">
+       <thead> <tr><th colspan="2">Datos Personales</th></tr></thead>
+        
+       <tbody>
+       <tr><td>Nombre</td><td>Sofía</td></tr>        
+        <tr><td>Edad</td><td>26</td></tr>
+
+        <tr><td>Nombre</td><td>Juan Diego</td></tr>
+        <tr><td>Edad</td><td>17</td></tr>
+
+        <tr><td>Nombre</td><td>Carol</td></tr>
+        <tr><td>Edad</td><td>20</td></tr>
+      </table>
+    </tbody>
+</section>
+
+<section>
+    <h2>8.Tablas con celdas combinadas (Rowspan)</h2>
+    <table border="1" cellpadding="10">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th rowspan="2">Ciudad</th>
+          </tr>
+          <tr>
+            <th>Juan</th>
+            <th>25</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ana</td>
+            <td>30</td>
+            <td>Madrid</td>
+          </tr>
+          <tr>
+            <td>Carlos</td>
+            <td>28</td>
+            <td>Sevilla</td>
+          </tr>
+        </tbody>
+      </table>
+      
+</section>
+    <section>
+        <h2>9.Tablas con estilos</h2>
+        <table class="tablenine">
+            <thead><tr><th>Nombre</th><th>Edad</th></tr></thead>
+            <tbody>
+                <tr><td>Luis</td><td>29</td></tr>
+                <tr><td>Elena</td><td>31</td></tr>
+
+        </tbody>
+          </table>
+    </section>
+    <section>
+        <h2>10.Tablas con un poco de todo</h2>
+        <table class="tableten">
+            <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Camila</td>
+                <td>Ríos</td>
+                <td>26</td>
+                <td>camila@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Esteban</td>
+                <td>Morales</td>
+                <td>31</td>
+                <td>esteban@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Sofía</td>
+                <td>Navarro</td>
+                <td>22</td>
+                <td>sofia@gmail.com</td>
+              </tr>
+             </table>
+            </tbody>
+    </section>
+</main>
+</body>
+</html>

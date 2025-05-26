@@ -1,0 +1,1 @@
+En el trabajo de hoy realicé una lista de 10 que contiene tipos de cosas que se le puede agregar a las tablas, como estilos, formas, colores etc. Fueron ejemplos muy sensillos pero son entendibles y cumplen con el objetivo del trabajo propuesto.

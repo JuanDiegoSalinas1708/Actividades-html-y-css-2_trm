@@ -1,0 +1,185 @@
+.tableone{
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+    }
+}
+
+.tabletwo{
+    
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            
+        }
+    }
+    
+
+img{
+    width: 100px;
+    height: auto;
+}
+
+html{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+.tablethree{
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        border-radius: 50px;
+    }
+}
+
+.tablefour{
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+       background-color: aqua;
+    }
+}
+.tablefour:hover{
+    
+        background-color: rgb(24, 58, 47);
+}
+
+.tablefive{
+   table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+       
+   }
+
+}
+
+.tablefive{
+    th{
+        overflow-y: auto;
+        display: block;
+        
+    }
+}
+
+.tablesix{
+    table,th,td{
+        border-collapse: collapse;
+        border: 1px solid black;
+       border-radius: 8px;
+       box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+           
+       }
+    
+
+}
+
+.tablenine{
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    font-family: Arial;
+}
+
+.tablenine{
+    th,td{
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+}
+ 
+.tableten{
+    tbody,th,td{
+        background-color: #f0f2f5;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 40px;
+      background-color: #4a90e2;
+      color: white;
+      text-align: left;
+      padding: 15px;
+      font-size: 16px;
+      padding: 14px 15px;
+      border-bottom: 1px solid #ddd;
+    }
+}
+
+.tableten:hover{
+    
+        background-color: #f5faff;
+      text-align: center;
+      padding: 14px 15px;
+      border-bottom: 1px solid #ddd;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #34495e;
+    border-left: 6px solid #3498db;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+table img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.tablenine {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tablenine th,
+.tablenine td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.tablenine th {
+    background-color: #8e44ad;
+    color: white;
+}
+
+.tablenine tr:nth-child(even) {
+    background-color: #f5eaf7;
+}
+
+
