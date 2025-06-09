@@ -1,0 +1,1 @@
+En la actividad de hoy se realizó un formulario de registro con validaciones mostrando mensajes de si está bien el dato ingresado o no, y si el formulario está listo para ser enviado o no.
