@@ -1,0 +1,1 @@
+En la actividad de hoy correspondió realizar una pagina web que tuviera información sobre mi, la pagina se hace con las herramientas mostradas en el video de apoyo.
